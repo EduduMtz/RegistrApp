@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,9,1) 24%, rgba(249,168,38,1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+    position: static;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    position: static;
+}
+
+/* Estilo para el contenedor de las cards */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cards bajen si no caben en una fila */
+    gap: 20px; /* Espacio entre cards */
+    justify-content: center; /* Centra las cards horizontalmente */
+    align-items: center; /* Centra las cards verticalmente */
+    margin: 0 auto;
+    max-width: 1200px; /* Ancho máximo para limitar la expansión */
+    padding: 20px;
+}
+
+#descarga {
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén uno debajo del otro */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}

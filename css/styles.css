@@ -53,7 +53,7 @@ footer {
     padding: 20px;
 }
 
-#descarga {
+#descarga #download-section {
     display: flex;
     flex-direction: column; /* Para que los elementos estén uno debajo del otro */
     justify-content: center; /* Centrado vertical */

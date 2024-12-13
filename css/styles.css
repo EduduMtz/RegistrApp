@@ -1,3 +1,30 @@
+/*ESTE ES LA SECCIÓN DE LA BARRA DE NAVEGACIÓN*/
+.nav{
+    background-color: #646262;
+}
+
+.nav-link{
+    color: antiquewhite; /* Establece el color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Ajustar opacidad de la barra de menu */
+#navbar.sticky {
+    background-color: rgba(0, 0, 0, 0.4); /* Reducir la opacidad */
+}
+
+.navbar-transparent {
+    background-color: transparent !important; /* Fondo transparente */
+}
+
+.navbar-brand{
+  width: 100x;
+  height: 100px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +38,7 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: black;
     color: #fff;
     padding: 20px 0;
     position: static;
@@ -32,7 +59,7 @@ main {
 }
 
 footer {
-    background-color: #004080;
+    background-color: rgba(249,168,38,1);
     color: #fff;
     padding: 10px 0;
     width: 100%;
@@ -62,3 +89,48 @@ footer {
     margin: 0 auto;
     padding: 20px;
 }
+
+.authorized-reseller-api-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 0.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.3s ease; /* Transición más rápida */
+    text-decoration: none;
+  }
+  
+  .authorized-reseller-api-btn:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+  
+  .authorized-reseller-api-btn:active {
+    background-color: #002d5c;
+    transform: scale(0.95);
+  }
+  
+  .texts {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+  }
+  
+  .text-1 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .text-2 {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  

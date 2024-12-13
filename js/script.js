@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (/mobile|android|iphone|ipad/.test(userAgent)) {
         // Mostrar botón para móviles
         downloadSection.innerHTML = `
-            <button onclick="window.location.href='static/mi-apk.apk'">Descargar APK</button>
+            <button onclick="window.location.href='https://github.com/EduduMtz/examen/releases/download/apk.RegistrApp/app-debug.apk'">Descargar APK</button>
         `;
     } else {
         // Generar QR para escritorio
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Generar el código QR dinámicamente
         new QRCode(qrDiv, {
-            text: window.location.origin + "/static/mi-apk.apk",
+            text: 'https://github.com/EduduMtz/examen/releases/download/apk.RegistrApp/app-debug.apk',
             width: 200,
             height: 200,
         });

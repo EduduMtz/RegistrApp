@@ -1,7 +1,6 @@
 /*ESTE ES LA SECCIÓN DE LA BARRA DE NAVEGACIÓN*/
 .nav{
     background-color: #646262;
-    position: static;
 }
 
 .nav-link{
@@ -91,5 +90,3 @@ footer {
     margin-bottom: 15px;
     padding: 20px;
 }
-
-

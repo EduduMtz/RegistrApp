@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const downloadSection = document.getElementById("download-section");
     const userAgent = navigator.userAgent.toLowerCase();
 
+    const infoimage = document.getElementById("info-app");
+
     if (/mobile|android|iphone|ipad/.test(userAgent)) {
         // Mostrar botón para móviles
         downloadSection.innerHTML = `
@@ -37,6 +39,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 </span>
             </a>
         `;
+        // Crear el párrafo
+        const paragraph = document.createElement("p");
+        paragraph.textContent = "Presiona la imagen para ver su descripción.";
+        
+        // Aplicar estilos opcionales al párrafo (puedes personalizarlo o manejarlo con CSS)
+        paragraph.style.color = "#fff";
+        paragraph.style.fontSize = "14px";
+        paragraph.style.marginTop = "10px";
+        paragraph.style.textAlign = "center";
+        
+        // Agregar el párrafo al elemento infoimage
+        infoimage.appendChild(paragraph);
     } else {
         // Generar QR para escritorio
         const qrDiv = document.createElement('div');

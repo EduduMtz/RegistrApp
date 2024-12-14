@@ -1,3 +1,31 @@
+/*ESTE ES LA SECCIÓN DE LA BARRA DE NAVEGACIÓN*/
+.nav{
+    background-color: #646262;
+    position: static;
+}
+
+.nav-link{
+    color: antiquewhite; /* Establece el color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Ajustar opacidad de la barra de menu */
+#navbar.sticky {
+    background-color: rgba(0, 0, 0, 0.4); /* Reducir la opacidad */
+}
+
+.navbar-transparent {
+    background-color: transparent !important; /* Fondo transparente */
+}
+
+.navbar-brand{
+  width: 100x;
+  height: 100px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +39,7 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: black;
     color: #fff;
     padding: 20px 0;
     position: static;
@@ -32,7 +60,7 @@ main {
 }
 
 footer {
-    background-color: #004080;
+    background-color: rgba(249,168,38,1);
     color: #fff;
     padding: 10px 0;
     width: 100%;
@@ -60,5 +88,8 @@ footer {
     align-items: center; /* Centrado horizontal */
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 15px;
     padding: 20px;
 }
+
+

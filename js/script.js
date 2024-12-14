@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const downloadSection = document.getElementById("download-section");
-    const infoimage = document.getElementById("info-app");
     const userAgent = navigator.userAgent.toLowerCase();
 
     const infoimage = document.getElementById("info-app");
